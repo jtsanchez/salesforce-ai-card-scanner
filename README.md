@@ -147,4 +147,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-Built as part of a Salesforce AI portfolio. Connect with me on [LinkedIn](https://linkedin.com/in/YOUR-PROFILE).
+Built as part of a Salesforce AI portfolio. Connect with me on [LinkedIn](https://linkedin.com/in/jann-pauline-sanchez/).
