@@ -7,10 +7,9 @@
 ![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-blue?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-<!-- 
-Add a screenshot or demo GIF here. Replace the placeholder below:
-![CardSync Demo](docs/screenshots/demo.png)
--->
+
+![CardSync Demo](https://github.com/jtsanchez/salesforce-ai-card-scanner/blob/main/BusinessCard%20demo.mp4)
+
 
 ---
 
