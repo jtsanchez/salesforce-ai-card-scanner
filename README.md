@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 
-https://github.com/jtsanchez/salesforce-ai-card-scanner/blob/main/BusinessCard%20demo.mp4
+WATCH THE DEMO: https://github.com/jtsanchez/salesforce-ai-card-scanner/blob/main/BusinessCard%20demo.mp4
 
 
 ---
