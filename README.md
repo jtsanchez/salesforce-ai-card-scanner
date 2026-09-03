@@ -118,19 +118,6 @@ salesforce-ai-card-scanner/
 
 ---
 
-## Adding screenshots
-
-To make this repo shine on LinkedIn and GitHub, add screenshots to `docs/screenshots/`:
-
-1. **Scan step** — the upload screen with a card image
-2. **Review step** — extracted fields filled in
-3. **Result step** — "Contact synced" confirmation
-4. **Salesforce** — the Contact record in Salesforce showing the synced data
-
-Then uncomment the image tag at the top of this README and update the path.
-
----
-
 ## Future improvements
 
 - [ ] Bulk scan — process multiple cards from a folder
