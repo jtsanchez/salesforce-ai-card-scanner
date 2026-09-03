@@ -60,31 +60,33 @@ CardSync photographs or uploads a business card image, uses Claude AI to extract
 
 ---
 
-## Two versions included
+## Two ways to use CardSync
 
-| File | Description | Requires |
+| Option | Description | Requires |
 |---|---|---|
+| [**Try it in Claude**](https://claude.ai/share/002829f1-5edc-455c-9b6b-c3291802df1b) | Interactive artifact — click and go | Claude account (free) |
 | `cardsync.html` | Standalone — open in any browser | Anthropic API key |
-| `business-card-scanner.jsx` | Claude artifact — runs inside Claude | Claude account (free) |
 
-Both require a one-time Salesforce org setup. See the full [Setup Guide](docs/setup-guide.md).
+The JSX source code (`business-card-scanner.jsx`) is also included for anyone who wants to study or remix it.
+
+Both options require a one-time Salesforce org setup. See the full [Setup Guide](docs/setup-guide.md).
 
 ---
 
 ## Quick start
 
-### Option A: Standalone HTML (no Claude account needed)
+### Option A: Claude Artifact (easiest)
+
+1. Open the [CardSync artifact](https://claude.ai/share/002829f1-5edc-455c-9b6b-c3291802df1b)
+2. Add your Salesforce connector in Claude settings (Customize → Connectors) — see the [Setup Guide](docs/setup-guide.md) for details
+3. Upload a business card and hit **Push to Salesforce**
+
+### Option B: Standalone HTML (no Claude account needed)
 
 1. Download `cardsync.html` and open it in any browser
-2. Paste your [Anthropic API key](https://console.anthropic.com) at the top
-3. Expand ⚙️ and enter your Salesforce MCP endpoint
-4. Start scanning cards
-
-### Option B: Claude Artifact
-
-1. Open the shared conversation link in [Claude](https://claude.ai)
-2. Add your Salesforce connector in Claude settings (Customize → Connectors)
-3. Open the artifact and start scanning
+2. Paste your [Anthropic API key](https://console.anthropic.com) into the field at the top
+3. Expand ⚙️ and confirm the Salesforce MCP endpoint matches your org
+4. Upload a business card and hit **Push to Salesforce**
 
 📖 **Full setup instructions including Salesforce org configuration:** [docs/setup-guide.md](docs/setup-guide.md)
 
@@ -147,4 +149,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Author
 
-Built as part of a Salesforce AI portfolio. Connect with me on [LinkedIn](https://linkedin.com/in/jann-pauline-sanchez/).
+Built as part of a Salesforce AI portfolio. Connect with me on [LinkedIn](https://www.linkedin.com/in/jann-pauline-sanchez/).
